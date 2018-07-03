@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HKnot"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "base lib without UI"
 
   s.swift_version = '3.2'
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #
 
   # :tag => "#{s.version}"
-  s.source = { :git => "https://github.com/qinyue/Knot.git", :branch => "master" }
+  s.source = { :git => "https://github.com/qinyue/Knot.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
