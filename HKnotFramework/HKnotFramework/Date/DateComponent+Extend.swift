@@ -14,10 +14,10 @@ public extension DateComponents{
         var value:UInt64 = 0;
         self.second != nil ? (value += UInt64(self.second!)) : ();
         self.minute != nil ? (value += UInt64(self.minute! * 100)) : ();
-        self.hour != nil ? (value += UInt64(self.hour! * 10000)) : ();
-        self.day != nil ? (value += UInt64(self.day! * 1000000)) : ();
-        self.month != nil ? (value += UInt64(self.month! * 100000000)) : ();
-        self.year != nil ? (value += UInt64(self.year! * 10000000000)) : ();
+        self.hour != nil ? (value += UInt64(self.hour! * 100 * 100)) : ();
+        self.day != nil ? (value += UInt64(self.day! * 100 * 100 * 100)) : ();
+        self.month != nil ? (value += UInt64(self.month! * 100 * 100 * 100 * 100)) : ();
+        self.year != nil ? (value += UInt64(self.year! * 100 * 100 * 100 * 100 * 100)) : ();
         return value;
     }
     
