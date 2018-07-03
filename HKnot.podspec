@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HKnot"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "base lib without UI"
 
   # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 	base lib with swift. without UI. extension or other.
                    DESC
 
-  s.homepage     = "https://github.com/qinyue/HKnot"
+  s.homepage     = "https://github.com/qinyue/Knot"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/qinyue/HKnot.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/qinyue/Knot.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
